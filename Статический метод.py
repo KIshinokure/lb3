@@ -1,0 +1,7 @@
+class Calculator:
+    def add():
+        a = float(input("Введите первое число: "))
+        b = float(input("Введите второе число: "))
+        return a + b
+
+print(Calculator.add())
